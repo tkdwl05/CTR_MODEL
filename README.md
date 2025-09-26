@@ -8,12 +8,19 @@
 ## 파일 구성
 `
 [Baseline]_Sequence LSTM + MLP 기반 CTR 예측.ipynb   # LSTM+MLP 시퀀스 베이스라인
+
 NVIDIA_Merlin XGBoost(full-data train in 2min).ipynb # Merlin + XGBoost 파이프라인(옵션, GPU 권장)
+
 Simple_EDA Starter - 클릭률 관련 분석.ipynb           # 기본 EDA
+
 [public_0.34707] 코드 공유합니다..ipynb               # 공유된 참고 노트북
+
 CTR_Model.ipynb                                        # parquet 로드/간단 실험 스켈레톤
+
 train.parquet, test.parquet                            # 학습/테스트 데이터(대용량, .gitignore 처리)
+
 sample_submission.csv                                   # 제출 양식 샘플
+
 open.zip                                                # 추가 리소스(압축)
 `
 
