@@ -1,0 +1,5 @@
+﻿*.parquet
+.ipynb_checkpoints/
+__pycache__/
+open.zip
+.DS_Store
