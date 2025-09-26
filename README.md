@@ -6,7 +6,7 @@
 - Python: 3.12 (노트북 메타데이터 기준)
 
 ## 파일 구성
-`
+```
 [Baseline]_Sequence LSTM + MLP 기반 CTR 예측.ipynb   # LSTM+MLP 시퀀스 베이스라인
 
 NVIDIA_Merlin XGBoost(full-data train in 2min).ipynb # Merlin + XGBoost 파이프라인(옵션, GPU 권장)
@@ -22,7 +22,7 @@ train.parquet, test.parquet                            # 학습/테스트 데이
 sample_submission.csv                                   # 제출 양식 샘플
 
 open.zip                                                # 추가 리소스(압축)
-`
+```
 
 ## 빠른 시작
 1) 환경 구성(권장)
