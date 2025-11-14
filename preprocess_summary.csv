@@ -1,0 +1,8 @@
+Step,Method,Impact
+데이터 로드,train.parquet + test.parquet,"Train: (10704179, 119), Test: (1527298, 119)"
+결측치 처리,5% 이상 drop + 최빈값,결측 0%
+이상치 제거,Z-score >3 제거,49705개 제거
+스케일링,StandardScaler,정규화 완료
+클래스 균형,오버샘플링 (train만),50:50 균형
+피처 엔지니어링,"is_weekend, seq, 클러스터링 (안정성 우선)",신규 피처 추가
+피처 선택,p<0.05 → 91개,115 → 91
